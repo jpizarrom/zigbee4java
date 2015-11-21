@@ -11,7 +11,8 @@ repositories {
 }
 
 dependencies {
-    compile 'serial-comm:serial-comm:0.9'
+    /*compile 'serial-comm:serial-comm:0.9'*/
+    compile fileTree(dir: 'libs', include: '*.jar')
 
     compile project(':zigbee-api')
 
